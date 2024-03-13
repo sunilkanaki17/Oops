@@ -8,12 +8,12 @@ int main()
     char ch;
     for(int i=0;i<name.size();i++)
     {
-        if(name[i]>=65 && name[i]<=91)
+        if(name[i]>=65 && name[i]<=90)
         {
             ch=tolower(name[i]);
             result+=ch;
         }
-        else if(name[i]>=95 && name[i]<=121)
+        else if(name[i]>=97 && name[i]<=122)
         {
             ch=toupper(name[i]);
             result+=ch;
